@@ -56,35 +56,8 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
 Aquí tienes un fragmento del código que realiza la descarga:
 
-```python
-    import yt_dlp as yt
-    def download_video(url, formato):
-        if formato == 1:
-            ydl_opts = {
-                'format': 'bestvideo+bestaudio',
-                'outtmpl': '%(title)s.%(ext)s',
-                'merge_output_format': 'mp4',
-            }
-        elif formato == 2:
-            ydl_opts = {
-                'format': 'bestaudio',
-                'outtmpl': '%(title)s.%(ext)s',
-                'postprocessors': [{
-                    'key': 'FFmpegAudioConvertor',
-                    'preferredcodec': 'mp3',
-                    'preferredquality': '320',
-                }]
-            }
-        else:
-            print('Formato no válido')
-            return
-        with yt.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([url])
-    url = input("Ingresa URL: ")
-    opcion = int(input('1. MP4    2. MP3\n'))
-    download_video(url, opcion)
-    print('Completado')
-```
+![Muestra de Codigo](\img\fragmento de codigo.png)
+
 
 ## 📝 Nota
 
