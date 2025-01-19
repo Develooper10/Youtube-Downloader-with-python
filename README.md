@@ -56,7 +56,7 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
 Aquí tienes un fragmento del código que realiza la descarga:
 
-![Muestra de Codigo](\img\fragmento de codigo.png)
+![Muestra de Codigo](/img/fragmentodecodigo.png)
 
 
 ## 📝 Nota
