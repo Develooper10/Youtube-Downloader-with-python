@@ -32,30 +32,22 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
    ```bash
    pip install yt-dlp
-   ´´´
-
 3. Asegúrate de tener FFmpeg instalado. Puedes seguir las instrucciones en [FFmpeg.org](https://ffmpeg.org/download.html) para instalarlo en tu sistema.
 
 ## 🏗️ Uso
 
 1. Clona este repositorio en tu máquina local:
 
-<!-- ```bash
-#!/bin/bash
-echo Hello world
-``` -->
-
-´´´ bash
-git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master>
-
+    ```bash
+    git clone https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master
 2. Ingresa a la carpeta del proyecto:
-    ´´´ bash
+
+    ```bash
     cd Youtube-Downloader-with-python
-    ´´´
 3. Ejecuta el script de descarga:
-    ´´´ bash
+
+    ```bash
     python Descargar_videos_YT.py.py
-    ´´´
 4. Ingresa la URL del video que deseas descargar y elige el formato de descarga.
 
 5. El video se descargará en el directorio actual.
@@ -63,7 +55,8 @@ git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/m
 ## 💻 Ejemplo de Código
 
 Aquí tienes un fragmento del código que realiza la descarga:
-    ´´´ python
+
+```python
     import yt_dlp as yt
     def download_video(url, formato):
         if formato == 1:
@@ -91,7 +84,7 @@ Aquí tienes un fragmento del código que realiza la descarga:
     opcion = int(input('1. MP4    2. MP3\n'))
     download_video(url, opcion)
     print('Completado')
-    ´´´
+```
 
 ## 📝 Nota
 
@@ -108,4 +101,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issu
 
 ## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](\LICENSE) para más detalles.
