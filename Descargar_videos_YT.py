@@ -28,7 +28,7 @@ def download_video(url, formato):
     #Aqui es para que empiece la descargar
     with yt.YoutubeDL(ydl_opts) as ydl: #se llama la libreria y se le imgresa las opciones
             ydl.download([url]) #Aqui ya empieza la descarga
-            
+
 #Llamamos las funcion y le ingresamos un url por consola
 url=input("Ingresa Url: ")
 opcion=int(input('1. MP4    2.MP3\n'))
