@@ -4,13 +4,13 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
 ## 📚 Tabla de Contenidos
 
-- [Características](#Características)
-- [Requisitos](#Requisitos)
-- [Instalación](#Instalación)
-- [Uso](#Uso)
-- [Ejemplo de Código](#Ejemplo-de-Código)
-- [Contribuciones](#Contribuciones)
-- [Licencia](#Licencia)
+- [Características](#-características)
+- [Requisitos](#️-requisitos)
+- [Instalación](#-instalación)
+- [Uso](#️-uso)
+- [Ejemplo de Código](#-ejemplo-de-código)
+- [Contribuciones](#-contribuciones)
+- [Licencia](#-licencia)
 
 ## ✨ Características
 
