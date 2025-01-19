@@ -40,9 +40,14 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
 1. Clona este repositorio en tu máquina local:
 
-    ´´´ bash
-    git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master>
-    ´´´
+<!-- ```bash
+#!/bin/bash
+echo Hello world
+``` -->
+
+´´´ bash
+git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master>
+´´´
 2. Ingresa a la carpeta del proyecto:
     ´´´ bash
     cd Youtube-Downloader-with-python
