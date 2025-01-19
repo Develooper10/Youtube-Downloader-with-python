@@ -40,15 +40,15 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 
 1. Clona este repositorio en tu máquina local:
 
-    ´´´bash
+    ´´´ bash
     git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master>
     ´´´
 2. Ingresa a la carpeta del proyecto:
-    ´´´bash
+    ´´´ bash
     cd Youtube-Downloader-with-python
     ´´´
 3. Ejecuta el script de descarga:
-    ´´´bash
+    ´´´ bash
     python Descargar_videos_YT.py.py
     ´´´
 4. Ingresa la URL del video que deseas descargar y elige el formato de descarga.
@@ -58,7 +58,7 @@ Este proyecto es un simple descargador de videos y audios utilizando la bibliote
 ## 💻 Ejemplo de Código
 
 Aquí tienes un fragmento del código que realiza la descarga:
-    ´´´python
+    ´´´ python
     import yt_dlp as yt
     def download_video(url, formato):
         if formato == 1:
