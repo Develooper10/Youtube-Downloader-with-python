@@ -47,7 +47,7 @@ echo Hello world
 
 ´´´ bash
 git clone <https://github.com/Develooper10/Youtube-Downloader-with-python/tree/master>
-´´´
+
 2. Ingresa a la carpeta del proyecto:
     ´´´ bash
     cd Youtube-Downloader-with-python
